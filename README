@@ -1,0 +1,13 @@
+MP-Boost++ is a C++ implementation of AdaBoost.MH and MPBoost, a multi-label-specific variant of AdaBoost that is more accurate and requires less iterations.
+
+Andrea Esuli
+http://www.esuli.it
+
+Scientific results produced using the software provided shall acknowledge the use of MP-Boost++. Please cite as:
+
+Andrea Esuli, Tiziano Fagni, and Fabrizio Sebastiani
+MP-Boost: A Multiple-Pivot Boosting Algorithm and its Application to Text Categorization
+Proceedings of the 13th International Symposium on String Processing and Information Retrieval (SPIRE’06),
+Glasgow, UK, 2006, pages 1-12. Lecture Notes in Computer Science n. 4209, Springer Verlag.
+
+http://www.esuli.it/wp-content/uploads/2011/07/SPIRE06a.pdf
