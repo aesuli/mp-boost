@@ -119,7 +119,7 @@ int MPBoostModel::RunTrain(int requestedIterations,
 
     MPBoostHypothesis * currHyp = new MPBoostHypothesis(categoryCount);
     for(int i =0;i<categoryCount;++i)
-      currHyp->SetScore(i,MAXDOUBLE);
+      currHyp->SetScore(i,std::numeric_limits<double>::max());
 
     for(int i = 0;i< categoryCount;++i)
       Wp[i] = 0.0;

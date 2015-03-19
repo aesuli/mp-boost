@@ -13,7 +13,7 @@
 
 #include <vector>
 #include <set>
-#include <values.h>
+#include <limits>
 #include <math.h>
 
 #include "defs.h"

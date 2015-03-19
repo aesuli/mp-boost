@@ -116,7 +116,7 @@ int AdaBoostMHModel::RunTrain(int requestedIterations,
       out << "Iteration " << completedIterations+1 << std::endl;
     
     AdaBoostMHHypothesis * currHyp = new AdaBoostMHHypothesis(categoryCount);
-    currHyp->SetScore(MAXDOUBLE);
+    currHyp->SetScore(std::numeric_limits<double>::max());
     
     for(int i = 0;i< categoryCount;++i)
       Wp[i] = 0.0;
