@@ -10,7 +10,7 @@ MP-Boost: A Multiple-Pivot Boosting Algorithm and its Application to Text Catego
 Proceedings of the 13th International Symposium on String Processing and Information Retrieval (SPIRE’06),
 Glasgow, UK, 2006, pages 1-12. Lecture Notes in Computer Science n. 4209, Springer Verlag.
 
-http://www.esuli.it/wp-content/uploads/2011/07/SPIRE06a.pdf
+http://www.esuli.it/publications/SPIRE2006a.pdf
 
 ###Compiling MP-Boost++
 
